@@ -14,7 +14,7 @@ const Fizzbuzz = ({ number }) => {
 		}
 	}
 
-	return <span className={number % 3 === 0 && number % 5 === 0 && `bold-display`}>{calcFizz(number)}</span>;
+	return <span className={number % 3 === 0 && number % 5 === 0 && `bold-display`}> {calcFizz(number)} </span>;
 };
 
 export default Fizzbuzz;

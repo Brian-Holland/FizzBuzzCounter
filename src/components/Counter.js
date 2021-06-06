@@ -4,10 +4,6 @@ import Fizzbuzz from './Fizzbuzz';
 const Counter = () => {
 	const [ count, setCount ] = useState(0);
 
-	function onClickHandler() {
-		setCount(count - 1);
-	}
-
 	return (
 		<div className="main-display">
 			<h1>FizzBuzz Counter</h1>
@@ -18,7 +14,7 @@ const Counter = () => {
 
 			<p className="count-display">The current count is: {count}</p>
 			<div>
-				<button className="count-button" onClick={onClickHandler}>
+				<button className="count-button" onClick={() => setCount(count - 1)}>
 					-1
 				</button>
 				<span> Count </span>

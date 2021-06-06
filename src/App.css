@@ -14,10 +14,13 @@ body {
 .count-button {
 	font-size: 1.6rem;
 	padding: .5rem .7rem;
+	margin: 0 .8rem;
 }
 
 .reset-button {
 	margin-top: 2rem;
+	font-size: 1.6rem;
+	padding: .3rem;
 }
 
 .main-display {
